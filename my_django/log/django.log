@@ -1,0 +1,13 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2441
+"GET /about/ HTTP/1.1" 200 27
+"GET / HTTP/1.1" 200 13
+C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\my_django\settings.py changed, reloading.
+INFO 2023-08-18 10:22:29,561 autoreload 1472 9668 Watching for file changes with StatReloader
+INFO 2023-08-18 10:22:33,917 basehttp 1472 13340 "GET / HTTP/1.1" 200 13
+WARNING 2023-08-18 10:22:35,623 log 1472 13340 Not Found: /favicon.ico
+WARNING 2023-08-18 10:22:35,631 basehttp 1472 13340 "GET /favicon.ico HTTP/1.1" 404 2441
+INFO 2023-08-18 10:22:38,865 basehttp 1472 13340 "GET /about/ HTTP/1.1" 200 27
+INFO 2023-08-18 10:22:42,713 basehttp 1472 13340 "GET / HTTP/1.1" 200 13
