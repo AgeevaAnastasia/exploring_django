@@ -2,6 +2,9 @@
 
 Рассмотрим, что такое логирование, зачем оно нужно и как его настроить в
 Django. Также мы рассмотрим примеры использования логирования в Django.
+
+
+
 Что такое логирование и зачем оно нужно
 
 Логирование - это процесс записи информации о работе приложения. Обычно
@@ -37,12 +40,12 @@ LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
     'handlers': {
-    'console': {
-    'class': 'logging.StreamHandler',
-    },
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
     'file': {
          'class': 'logging.FileHandler',
-         'filename': '/path/to/django.log',
+         'filename': './log/django.log', # нужно скачала создать папку самостоятельно
         },
     },
     'loggers': {
