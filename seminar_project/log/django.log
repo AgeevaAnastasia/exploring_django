@@ -1,0 +1,17 @@
+INFO 2023-08-22 12:09:20,563 autoreload 14940 6460 Watching for file changes with StatReloader
+WARNING 2023-08-22 12:09:23,152 log 14940 8496 Not Found: /
+WARNING 2023-08-22 12:09:23,382 basehttp 14940 8496 "GET / HTTP/1.1" 404 2280
+WARNING 2023-08-22 12:09:24,750 log 14940 8496 Not Found: /favicon.ico
+WARNING 2023-08-22 12:09:24,828 basehttp 14940 8496 "GET /favicon.ico HTTP/1.1" 404 2331
+INFO 2023-08-22 12:09:33,504 views 14940 8496 Index page accessed
+INFO 2023-08-22 12:09:33,509 basehttp 14940 8496 "GET /choice/ HTTP/1.1" 200 54
+INFO 2023-08-22 12:09:38,976 views 14940 8496 Cube page accessed. Было сгенерировано значение 4
+INFO 2023-08-22 12:09:38,978 basehttp 14940 8496 "GET /choice/cube/ HTTP/1.1" 200 62
+INFO 2023-08-22 12:09:43,876 views 14940 8496 Coin page accessed. Было сгенерировано значение "орел"
+INFO 2023-08-22 12:09:43,892 basehttp 14940 8496 "GET /choice/coin/ HTTP/1.1" 200 67
+INFO 2023-08-22 12:09:50,109 views 14940 8496 Random page accessed. Было сгенерировано значение 170
+INFO 2023-08-22 12:09:50,111 basehttp 14940 8496 "GET /choice/random/ HTTP/1.1" 200 60
+INFO 2023-08-22 12:11:25,020 autoreload 14940 6460 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\seminar_project\settings.py changed, reloading.
+INFO 2023-08-22 12:11:32,042 autoreload 15124 14532 Watching for file changes with StatReloader
+INFO 2023-08-22 12:12:14,208 autoreload 15124 14532 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\seminar_project\settings.py changed, reloading.
+INFO 2023-08-22 12:12:20,374 autoreload 9960 8348 Watching for file changes with StatReloader
