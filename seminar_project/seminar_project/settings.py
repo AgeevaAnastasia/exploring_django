@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'sem1_app',
     'choiceapp',
+    'coinapp',
+    'blogapp'
 ]
 
 MIDDLEWARE = [
@@ -162,6 +164,16 @@ LOGGING = {
             'propagate': True,
         },
         'choiceapp': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'coinapp': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'blogapp': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
