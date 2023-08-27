@@ -16,8 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from myapp3.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('firstapp.urls'))
+    path('', include('firstapp.urls')),
+    path('app3/', include('myapp3.urls')),
+    path('', index), # так указать базовую страницу всего проекта
 ]

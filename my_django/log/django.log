@@ -11,3 +11,447 @@ WARNING 2023-08-18 10:22:35,623 log 1472 13340 Not Found: /favicon.ico
 WARNING 2023-08-18 10:22:35,631 basehttp 1472 13340 "GET /favicon.ico HTTP/1.1" 404 2441
 INFO 2023-08-18 10:22:38,865 basehttp 1472 13340 "GET /about/ HTTP/1.1" 200 27
 INFO 2023-08-18 10:22:42,713 basehttp 1472 13340 "GET / HTTP/1.1" 200 13
+INFO 2023-08-25 18:56:10,447 autoreload 9448 12576 Watching for file changes with StatReloader
+INFO 2023-08-25 18:56:25,575 autoreload 9448 12576 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\my_django\urls.py changed, reloading.
+INFO 2023-08-25 18:56:27,333 autoreload 7620 10744 Watching for file changes with StatReloader
+INFO 2023-08-25 18:56:38,304 views 7620 8 Index page accessed
+INFO 2023-08-25 18:56:38,324 basehttp 7620 8 "GET / HTTP/1.1" 200 13
+WARNING 2023-08-25 18:56:43,519 log 7620 8 Not Found: /favicon.ico
+WARNING 2023-08-25 18:56:43,599 basehttp 7620 8 "GET /favicon.ico HTTP/1.1" 404 2546
+WARNING 2023-08-25 18:56:51,392 log 7620 8 Not Found: /app3
+WARNING 2023-08-25 18:56:51,394 basehttp 7620 8 "GET /app3 HTTP/1.1" 404 2525
+WARNING 2023-08-25 18:56:56,843 log 7620 8 Not Found: /app3/
+WARNING 2023-08-25 18:56:56,853 basehttp 7620 8 "GET /app3/ HTTP/1.1" 404 2769
+INFO 2023-08-25 18:57:13,700 basehttp 7620 8 "GET /app3/hello/ HTTP/1.1" 200 26
+INFO 2023-08-25 18:57:21,846 basehttp 7620 8 "GET /app3/hello2/ HTTP/1.1" 200 23
+INFO 2023-08-25 19:51:22,104 autoreload 1040 5428 Watching for file changes with StatReloader
+INFO 2023-08-25 19:51:25,337 views 1040 3468 Index page accessed
+INFO 2023-08-25 19:51:25,356 basehttp 1040 3468 "GET / HTTP/1.1" 200 13
+WARNING 2023-08-25 19:51:27,818 log 1040 3468 Not Found: /favicon.ico
+WARNING 2023-08-25 19:51:27,820 basehttp 1040 3468 "GET /favicon.ico HTTP/1.1" 404 2546
+INFO 2023-08-25 19:51:47,322 basehttp 1040 3468 "GET /app3/posts/2022 HTTP/1.1" 301 0
+INFO 2023-08-25 19:51:47,369 basehttp 1040 10028 "GET /app3/posts/2022/ HTTP/1.1" 200 19
+INFO 2023-08-25 19:51:51,151 basehttp 1040 10028 "GET /app3/posts/2022/8 HTTP/1.1" 301 0
+INFO 2023-08-25 19:51:51,166 basehttp 1040 6932 "GET /app3/posts/2022/8/ HTTP/1.1" 200 21
+INFO 2023-08-25 19:51:57,369 basehttp 1040 6932 "GET /app3/posts/2022/8/omy HTTP/1.1" 301 0
+INFO 2023-08-25 19:51:57,405 basehttp 1040 1068 "GET /app3/posts/2022/8/omy/ HTTP/1.1" 200 357
+INFO 2023-08-25 20:00:10,538 autoreload 1040 5428 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py changed, reloading.
+INFO 2023-08-25 20:00:26,573 autoreload 7780 9684 Watching for file changes with StatReloader
+INFO 2023-08-25 20:00:55,452 autoreload 7780 9684 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py changed, reloading.
+INFO 2023-08-25 20:01:05,637 autoreload 14176 10032 Watching for file changes with StatReloader
+INFO 2023-08-25 20:02:35,489 autoreload 14176 10032 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\urls.py changed, reloading.
+INFO 2023-08-25 20:02:41,094 autoreload 432 9848 Watching for file changes with StatReloader
+INFO 2023-08-25 20:02:44,711 autoreload 432 9848 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\urls.py changed, reloading.
+INFO 2023-08-25 20:02:51,264 autoreload 9172 15056 Watching for file changes with StatReloader
+INFO 2023-08-25 20:02:54,654 autoreload 9172 15056 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\urls.py changed, reloading.
+INFO 2023-08-25 20:02:56,717 autoreload 9396 12928 Watching for file changes with StatReloader
+INFO 2023-08-25 20:03:08,445 autoreload 9396 12928 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\urls.py changed, reloading.
+INFO 2023-08-25 20:03:11,259 autoreload 976 3524 Watching for file changes with StatReloader
+INFO 2023-08-25 20:03:18,764 autoreload 976 3524 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\urls.py changed, reloading.
+INFO 2023-08-25 20:03:24,348 autoreload 3132 8068 Watching for file changes with StatReloader
+INFO 2023-08-25 20:03:29,351 autoreload 3132 8068 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\urls.py changed, reloading.
+INFO 2023-08-25 20:03:35,278 autoreload 14412 5068 Watching for file changes with StatReloader
+INFO 2023-08-25 20:03:47,171 autoreload 14412 5068 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\urls.py changed, reloading.
+INFO 2023-08-25 20:03:49,309 autoreload 6184 3456 Watching for file changes with StatReloader
+INFO 2023-08-25 20:04:23,517 views 6184 6584 Index page accessed
+INFO 2023-08-25 20:04:24,148 basehttp 6184 6584 "GET / HTTP/1.1" 200 13
+WARNING 2023-08-25 20:04:26,803 log 6184 6584 Not Found: /favicon.ico
+WARNING 2023-08-25 20:04:26,806 basehttp 6184 6584 "GET /favicon.ico HTTP/1.1" 404 2546
+INFO 2023-08-25 20:04:31,581 basehttp 6184 6584 "GET /app3 HTTP/1.1" 301 0
+INFO 2023-08-25 20:04:31,737 basehttp 6184 8840 "GET /app3/ HTTP/1.1" 200 180
+INFO 2023-08-25 20:08:53,525 autoreload 6184 3456 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\urls.py changed, reloading.
+INFO 2023-08-25 20:08:57,743 autoreload 4228 4272 Watching for file changes with StatReloader
+INFO 2023-08-25 20:09:20,201 views 4228 620 Index page accessed
+INFO 2023-08-25 20:09:20,203 basehttp 4228 620 "GET / HTTP/1.1" 200 13
+WARNING 2023-08-25 20:09:22,324 log 4228 620 Not Found: /favicon.ico
+WARNING 2023-08-25 20:09:22,399 basehttp 4228 620 "GET /favicon.ico HTTP/1.1" 404 2546
+INFO 2023-08-25 20:09:23,126 autoreload 4228 4272 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\urls.py changed, reloading.
+INFO 2023-08-25 20:09:26,622 autoreload 12100 3496 Watching for file changes with StatReloader
+INFO 2023-08-25 20:09:29,212 basehttp 12100 9284 "GET /app3/ HTTP/1.1" 200 180
+INFO 2023-08-25 20:09:33,666 basehttp 12100 9284 "GET /app3/if HTTP/1.1" 301 0
+INFO 2023-08-25 20:09:33,713 basehttp 12100 7828 "GET /app3/if/ HTTP/1.1" 200 328
+INFO 2023-08-25 23:29:22,211 autoreload 12100 3496 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py changed, reloading.
+INFO 2023-08-25 23:29:25,582 autoreload 8584 10684 Watching for file changes with StatReloader
+INFO 2023-08-25 23:29:52,811 autoreload 8584 10684 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py changed, reloading.
+INFO 2023-08-25 23:29:56,919 autoreload 5168 13780 Watching for file changes with StatReloader
+INFO 2023-08-25 23:30:33,300 autoreload 5168 13780 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\urls.py changed, reloading.
+INFO 2023-08-25 23:30:40,179 autoreload 1104 7816 Watching for file changes with StatReloader
+INFO 2023-08-25 23:30:44,759 basehttp 1104 4492 "GET /app3/ HTTP/1.1" 200 180
+WARNING 2023-08-25 23:30:45,480 log 1104 4492 Not Found: /favicon.ico
+WARNING 2023-08-25 23:30:45,486 basehttp 1104 4492 "GET /favicon.ico HTTP/1.1" 404 2546
+INFO 2023-08-25 23:30:48,343 basehttp 1104 4492 "GET /app3/for HTTP/1.1" 301 0
+INFO 2023-08-25 23:30:48,359 basehttp 1104 9988 "GET /app3/for/ HTTP/1.1" 200 788
+INFO 2023-08-25 23:43:25,901 autoreload 1104 7816 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py changed, reloading.
+INFO 2023-08-25 23:43:29,606 autoreload 11252 14960 Watching for file changes with StatReloader
+INFO 2023-08-25 23:43:36,605 autoreload 11252 14960 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py changed, reloading.
+INFO 2023-08-25 23:43:43,217 autoreload 9052 14732 Watching for file changes with StatReloader
+INFO 2023-08-25 23:43:49,320 autoreload 9052 14732 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py changed, reloading.
+INFO 2023-08-25 23:43:51,898 autoreload 9404 7620 Watching for file changes with StatReloader
+INFO 2023-08-25 23:43:58,506 autoreload 9404 7620 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py changed, reloading.
+INFO 2023-08-25 23:44:03,261 autoreload 14532 9704 Watching for file changes with StatReloader
+INFO 2023-08-25 23:44:07,783 autoreload 14532 9704 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py changed, reloading.
+INFO 2023-08-25 23:44:15,146 autoreload 112 9132 Watching for file changes with StatReloader
+INFO 2023-08-25 23:44:44,163 views 112 10060 Index page accessed
+INFO 2023-08-25 23:44:44,733 basehttp 112 10060 "GET / HTTP/1.1" 200 13
+WARNING 2023-08-25 23:44:47,084 log 112 10060 Not Found: /favicon.ico
+INFO 2023-08-25 23:44:47,150 autoreload 112 9132 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py changed, reloading.
+INFO 2023-08-25 23:44:49,935 autoreload 8948 9144 Watching for file changes with StatReloader
+WARNING 2023-08-25 23:44:52,359 log 8948 11164 Not Found: /app3/index
+WARNING 2023-08-25 23:44:52,360 basehttp 8948 11164 "GET /app3/index HTTP/1.1" 404 3932
+INFO 2023-08-25 23:44:57,806 basehttp 8948 11164 "GET /app3/ HTTP/1.1" 200 180
+INFO 2023-08-25 23:46:10,407 autoreload 8948 9144 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\urls.py changed, reloading.
+INFO 2023-08-25 23:46:13,328 autoreload 10560 14680 Watching for file changes with StatReloader
+INFO 2023-08-25 23:46:14,137 basehttp 10560 9136 "GET /app3/ HTTP/1.1" 200 180
+INFO 2023-08-25 23:46:17,437 basehttp 10560 9136 "GET /app3/index HTTP/1.1" 301 0
+INFO 2023-08-25 23:46:17,494 basehttp 10560 11072 "GET /app3/index/ HTTP/1.1" 200 258
+INFO 2023-08-25 23:46:27,288 basehttp 10560 11072 "GET /app3/about/ HTTP/1.1" 200 253
+INFO 2023-08-25 23:49:52,546 autoreload 10560 14680 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\my_django\settings.py changed, reloading.
+INFO 2023-08-25 23:49:54,464 autoreload 4548 10372 Watching for file changes with StatReloader
+INFO 2023-08-25 23:55:31,510 views 4548 12860 Index page accessed
+INFO 2023-08-25 23:55:32,212 basehttp 4548 12860 "GET / HTTP/1.1" 200 13
+WARNING 2023-08-25 23:55:34,067 log 4548 12860 Not Found: /favicon.ico
+WARNING 2023-08-25 23:55:34,073 basehttp 4548 12860 "GET /favicon.ico HTTP/1.1" 404 2546
+ERROR 2023-08-25 23:55:40,489 log 4548 12860 Internal Server Error: /app3/index/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py", line 75, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-08-25 23:55:40,576 basehttp 4548 12860 "GET /app3/index/ HTTP/1.1" 500 134166
+ERROR 2023-08-25 23:56:19,593 log 4548 12860 Internal Server Error: /app3/index/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py", line 75, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-08-25 23:56:19,843 basehttp 4548 12860 "GET /app3/index/ HTTP/1.1" 500 134295
+ERROR 2023-08-25 23:56:47,676 log 4548 12860 Internal Server Error: /app3/index/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "'myapp3/base.html'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py", line 75, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 1: ''myapp3/base.html''. Did you forget to register or load this tag?
+ERROR 2023-08-25 23:56:47,740 basehttp 4548 12860 "GET /app3/index/ HTTP/1.1" 500 136425
+INFO 2023-08-25 23:58:14,432 autoreload 11388 14068 Watching for file changes with StatReloader
+ERROR 2023-08-25 23:58:19,410 log 11388 13804 Internal Server Error: /app3/index/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py", line 75, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-08-25 23:58:19,610 basehttp 11388 13804 "GET /app3/index/ HTTP/1.1" 500 134303
+ERROR 2023-08-25 23:58:29,043 log 11388 13804 Internal Server Error: /app3/about/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "'myapp3/base.html'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py", line 79, in about
+    return render(request, 'myapp3/about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: ''myapp3/base.html''. Did you forget to register or load this tag?
+ERROR 2023-08-25 23:58:29,111 basehttp 11388 13804 "GET /app3/about/ HTTP/1.1" 500 149975
+INFO 2023-08-25 23:59:27,262 autoreload 4792 14784 Watching for file changes with StatReloader
+INFO 2023-08-25 23:59:29,497 views 4792 11744 Index page accessed
+INFO 2023-08-25 23:59:29,560 basehttp 4792 11744 "GET / HTTP/1.1" 200 13
+WARNING 2023-08-25 23:59:31,532 log 4792 11744 Not Found: /favicon.ico
+WARNING 2023-08-25 23:59:31,556 basehttp 4792 11744 "GET /favicon.ico HTTP/1.1" 404 2546
+INFO 2023-08-25 23:59:37,174 basehttp 4792 11744 "GET /app3/index/ HTTP/1.1" 200 330
+ERROR 2023-08-25 23:59:52,323 log 4792 11744 Internal Server Error: /app3/about/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "'myapp3/base.html'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py", line 79, in about
+    return render(request, 'myapp3/about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: ''myapp3/base.html''. Did you forget to register or load this tag?
+ERROR 2023-08-25 23:59:52,344 basehttp 4792 11744 "GET /app3/about/ HTTP/1.1" 500 149983
+INFO 2023-08-26 00:02:04,781 autoreload 4792 14784 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\my_django\urls.py changed, reloading.
+INFO 2023-08-26 00:02:07,609 autoreload 4020 760 Watching for file changes with StatReloader
+INFO 2023-08-26 00:03:01,977 autoreload 4020 760 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\my_django\urls.py changed, reloading.
+INFO 2023-08-26 00:03:06,272 autoreload 4820 3656 Watching for file changes with StatReloader
+INFO 2023-08-26 00:08:03,151 autoreload 4820 3656 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\models.py changed, reloading.
+INFO 2023-08-26 00:08:05,726 autoreload 9776 2696 Watching for file changes with StatReloader
