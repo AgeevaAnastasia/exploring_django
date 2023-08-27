@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Посты автора</title>
+</head>
+<body>
+
+{% for post in posts %}
+
+    {% if post.ispublic %}
+
+<!--        <p> </p><a href="../../post/{{ post.id }}/">{{ post.title }}</a> </p>-->
+        <p> </p><a href="{% url 'post' post.id %}">{{ post.title }}</a> </p>
+
+    {% else %}
+
+        <p>{{ post.title }}</p>
+
+    {% endif %}
+
+{% endfor %}
+
+</body>
+</html>

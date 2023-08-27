@@ -15,3 +15,190 @@ INFO 2023-08-22 12:11:25,020 autoreload 14940 6460 C:\Users\HP\YandexDisk\develo
 INFO 2023-08-22 12:11:32,042 autoreload 15124 14532 Watching for file changes with StatReloader
 INFO 2023-08-22 12:12:14,208 autoreload 15124 14532 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\seminar_project\settings.py changed, reloading.
 INFO 2023-08-22 12:12:20,374 autoreload 9960 8348 Watching for file changes with StatReloader
+INFO 2023-08-27 12:59:53,767 autoreload 4996 7064 Watching for file changes with StatReloader
+INFO 2023-08-27 13:04:13,701 autoreload 12600 14440 Watching for file changes with StatReloader
+INFO 2023-08-27 13:05:27,236 autoreload 12600 14440 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\seminar_project\settings.py changed, reloading.
+INFO 2023-08-27 13:05:31,029 autoreload 11204 1524 Watching for file changes with StatReloader
+INFO 2023-08-27 13:07:00,782 autoreload 11872 1080 Watching for file changes with StatReloader
+WARNING 2023-08-27 13:07:07,830 log 11872 6528 Not Found: /
+WARNING 2023-08-27 13:07:07,841 basehttp 11872 6528 "GET / HTTP/1.1" 404 2280
+WARNING 2023-08-27 13:07:09,113 log 11872 6528 Not Found: /favicon.ico
+WARNING 2023-08-27 13:07:09,239 basehttp 11872 6528 "GET /favicon.ico HTTP/1.1" 404 2331
+INFO 2023-08-27 13:07:17,317 views 11872 6528 Index page accessed
+INFO 2023-08-27 13:07:17,318 basehttp 11872 6528 "GET /choice/ HTTP/1.1" 200 54
+INFO 2023-08-27 13:07:24,260 basehttp 11872 6528 "GET /choice/coin/ HTTP/1.1" 200 220
+INFO 2023-08-27 13:07:29,549 basehttp 11872 6528 "GET /choice/cube/ HTTP/1.1" 200 235
+INFO 2023-08-27 13:07:35,246 basehttp 11872 6528 "GET /choice/random/ HTTP/1.1" 200 226
+INFO 2023-08-27 20:51:59,957 autoreload 8264 5864 Watching for file changes with StatReloader
+WARNING 2023-08-27 20:52:06,763 log 8264 12988 Not Found: /
+WARNING 2023-08-27 20:52:07,024 basehttp 8264 12988 "GET / HTTP/1.1" 404 2388
+WARNING 2023-08-27 20:52:08,823 log 8264 12988 Not Found: /favicon.ico
+WARNING 2023-08-27 20:52:08,843 basehttp 8264 12988 "GET /favicon.ico HTTP/1.1" 404 2439
+WARNING 2023-08-27 20:52:22,179 log 8264 12988 Not Found: /blogapp/
+WARNING 2023-08-27 20:52:22,195 basehttp 8264 12988 "GET /blogapp/ HTTP/1.1" 404 2505
+INFO 2023-08-27 20:52:39,743 basehttp 8264 12988 "GET /blogapp/posts/2 HTTP/1.1" 301 0
+INFO 2023-08-27 20:52:39,869 basehttp 8264 4652 "GET /blogapp/posts/2/ HTTP/1.1" 200 451
+WARNING 2023-08-27 20:52:46,370 log 8264 4652 Not Found: /blogapp/posts/2/post/7/
+WARNING 2023-08-27 20:52:46,374 basehttp 8264 4652 "GET /blogapp/posts/2/post/7/ HTTP/1.1" 404 2550
+WARNING 2023-08-27 20:52:51,658 log 8264 4652 Not Found: /blogapp/posts/2/post/12/
+WARNING 2023-08-27 20:52:51,660 basehttp 8264 4652 "GET /blogapp/posts/2/post/12/ HTTP/1.1" 404 2553
+INFO 2023-08-27 20:56:19,078 autoreload 12412 5852 Watching for file changes with StatReloader
+WARNING 2023-08-27 20:56:20,901 log 12412 10960 Not Found: /
+WARNING 2023-08-27 20:56:21,725 basehttp 12412 10960 "GET / HTTP/1.1" 404 2388
+WARNING 2023-08-27 20:56:23,538 log 12412 10960 Not Found: /favicon.ico
+WARNING 2023-08-27 20:56:23,550 basehttp 12412 10960 "GET /favicon.ico HTTP/1.1" 404 2439
+ERROR 2023-08-27 20:56:28,205 log 12412 10960 Internal Server Error: /blogapp/posts/2/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'post.title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py", line 8, in get_posts
+    return render(request, 'blogapp/posts.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 13: 'post.title', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+ERROR 2023-08-27 20:56:28,327 basehttp 12412 10960 "GET /blogapp/posts/2/ HTTP/1.1" 500 170411
+INFO 2023-08-27 20:56:43,523 basehttp 12412 10960 "GET /blogapp/posts/2/ HTTP/1.1" 200 451
+INFO 2023-08-27 20:56:56,590 basehttp 12412 10960 "GET /blogapp/posts/2/ HTTP/1.1" 200 435
+INFO 2023-08-27 20:57:08,737 basehttp 12412 10960 "GET /blogapp/posts/2/ HTTP/1.1" 200 427
+INFO 2023-08-27 20:57:33,459 basehttp 12412 10960 "GET /blogapp/posts/2/ HTTP/1.1" 200 479
+INFO 2023-08-27 22:19:41,772 autoreload 12412 5852 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py changed, reloading.
+INFO 2023-08-27 22:19:47,071 autoreload 13404 6264 Watching for file changes with StatReloader
+INFO 2023-08-27 22:20:38,554 autoreload 13404 6264 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py changed, reloading.
+INFO 2023-08-27 22:20:42,404 autoreload 15280 13620 Watching for file changes with StatReloader
+INFO 2023-08-27 22:20:57,105 autoreload 15280 13620 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py changed, reloading.
+INFO 2023-08-27 22:21:03,753 autoreload 11584 15096 Watching for file changes with StatReloader
+INFO 2023-08-27 22:21:32,821 autoreload 11584 15096 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py changed, reloading.
+INFO 2023-08-27 22:21:37,053 autoreload 7472 7828 Watching for file changes with StatReloader
+WARNING 2023-08-27 22:24:06,927 log 7472 13632 Not Found: /
+WARNING 2023-08-27 22:24:06,940 basehttp 7472 13632 "GET / HTTP/1.1" 404 2388
+WARNING 2023-08-27 22:24:07,543 log 7472 13632 Not Found: /favicon.ico
+WARNING 2023-08-27 22:24:07,559 basehttp 7472 13632 "GET /favicon.ico HTTP/1.1" 404 2439
+INFO 2023-08-27 22:24:10,590 basehttp 7472 13632 "GET /blogapp/posts/2/ HTTP/1.1" 200 479
+WARNING 2023-08-27 22:24:13,309 log 7472 13632 Not Found: /blogapp/posts/2/post/9/
+WARNING 2023-08-27 22:24:13,314 basehttp 7472 13632 "GET /blogapp/posts/2/post/9/ HTTP/1.1" 404 2550
+INFO 2023-08-27 22:25:00,219 autoreload 7472 7828 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\urls.py changed, reloading.
+INFO 2023-08-27 22:25:03,707 autoreload 6028 15264 Watching for file changes with StatReloader
+WARNING 2023-08-27 22:25:05,435 log 6028 10608 Not Found: /blogapp/posts/2/post/7/
+WARNING 2023-08-27 22:25:05,442 basehttp 6028 10608 "GET /blogapp/posts/2/post/7/ HTTP/1.1" 404 2730
+WARNING 2023-08-27 22:26:41,599 log 6028 10608 Not Found: /blogapp/posts/2/post/12/
+WARNING 2023-08-27 22:26:41,636 basehttp 6028 10608 "GET /blogapp/posts/2/post/12/ HTTP/1.1" 404 2733
+WARNING 2023-08-27 22:27:49,945 log 6028 10608 Not Found: /blogapp/posts/2/post/12/
+WARNING 2023-08-27 22:27:50,039 basehttp 6028 10608 "GET /blogapp/posts/2/post/12/ HTTP/1.1" 404 2733
+INFO 2023-08-27 22:28:07,507 autoreload 11984 2436 Watching for file changes with StatReloader
+INFO 2023-08-27 22:28:10,935 basehttp 11984 1128 "GET /blogapp/posts/2/ HTTP/1.1" 200 491
+WARNING 2023-08-27 22:28:12,370 log 11984 1128 Not Found: /blogapp/posts/post/12/
+WARNING 2023-08-27 22:28:12,412 basehttp 11984 1128 "GET /blogapp/posts/post/12/ HTTP/1.1" 404 2727
+WARNING 2023-08-27 22:28:30,680 log 11984 1128 Not Found: /blogapp/posts/post/12/
+WARNING 2023-08-27 22:28:30,681 basehttp 11984 1128 "GET /blogapp/posts/post/12/ HTTP/1.1" 404 2727
+INFO 2023-08-27 22:28:47,037 autoreload 6556 8144 Watching for file changes with StatReloader
+INFO 2023-08-27 22:28:53,201 basehttp 6556 2516 "GET /blogapp/posts/2/ HTTP/1.1" 200 503
+INFO 2023-08-27 22:28:54,671 basehttp 6556 2516 "GET /blogapp/post/12/ HTTP/1.1" 200 145
+INFO 2023-08-27 22:29:03,305 basehttp 6556 2516 "GET /blogapp/post/7/ HTTP/1.1" 200 145
+INFO 2023-08-27 22:32:38,445 autoreload 752 12064 Watching for file changes with StatReloader
+INFO 2023-08-27 22:32:42,232 basehttp 752 5008 "GET /blogapp/posts/2/ HTTP/1.1" 200 769
+INFO 2023-08-27 22:32:48,361 basehttp 752 5008 "GET /blogapp/posts/3/ HTTP/1.1" 200 560
+INFO 2023-08-27 22:32:50,078 basehttp 752 5008 "GET /blogapp/post/13/ HTTP/1.1" 200 145
+INFO 2023-08-27 22:34:57,602 autoreload 752 12064 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py changed, reloading.
+INFO 2023-08-27 22:35:05,274 autoreload 9664 12768 Watching for file changes with StatReloader
+INFO 2023-08-27 22:35:09,288 basehttp 9664 896 "GET /blogapp/post/14/ HTTP/1.1" 200 439
+INFO 2023-08-27 22:38:06,896 autoreload 7888 12408 Watching for file changes with StatReloader
+WARNING 2023-08-27 22:38:08,916 log 7888 11032 Not Found: /
+WARNING 2023-08-27 22:38:09,587 basehttp 7888 11032 "GET / HTTP/1.1" 404 2388
+WARNING 2023-08-27 22:38:11,241 log 7888 11032 Not Found: /favicon.ico
+WARNING 2023-08-27 22:38:11,333 basehttp 7888 11032 "GET /favicon.ico HTTP/1.1" 404 2439
+INFO 2023-08-27 22:38:19,419 basehttp 7888 11032 "GET /blogapp/posts/2/ HTTP/1.1" 200 769
+ERROR 2023-08-27 22:38:23,501 log 7888 11032 Internal Server Error: /blogapp/post/7/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py", line 13, in get_post
+    print(post.views)
+          ^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'views'
+ERROR 2023-08-27 22:38:23,517 basehttp 7888 11032 "GET /blogapp/post/7/ HTTP/1.1" 500 66310
+INFO 2023-08-27 22:39:40,659 autoreload 7888 12408 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py changed, reloading.
+INFO 2023-08-27 22:39:42,950 autoreload 9924 14612 Watching for file changes with StatReloader
+INFO 2023-08-27 22:39:50,196 basehttp 9924 5308 "GET /blogapp/posts/2/ HTTP/1.1" 200 769
+ERROR 2023-08-27 22:39:52,436 log 9924 5308 Internal Server Error: /blogapp/post/7/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py", line 13, in get_post
+    post.views += 1
+    ^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'views'
+ERROR 2023-08-27 22:39:52,482 basehttp 9924 5308 "GET /blogapp/post/7/ HTTP/1.1" 500 66022
+INFO 2023-08-27 22:42:44,013 autoreload 9924 14612 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py changed, reloading.
+INFO 2023-08-27 22:43:06,397 autoreload 11280 3784 Watching for file changes with StatReloader
+INFO 2023-08-27 22:43:07,085 basehttp 11280 15100 "GET /blogapp/posts/2/ HTTP/1.1" 200 769
+INFO 2023-08-27 22:43:08,889 basehttp 11280 15100 "GET /blogapp/post/7/ HTTP/1.1" 200 436
+INFO 2023-08-27 22:43:13,477 basehttp 11280 15100 "GET /blogapp/post/7/ HTTP/1.1" 200 436

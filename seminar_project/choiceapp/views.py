@@ -1,5 +1,7 @@
-from django.shortcuts import render
+from datetime import datetime
+from functools import wraps
 
+from django.shortcuts import render
 from django.http import HttpResponse
 from random import randint
 import logging
@@ -7,11 +9,41 @@ import logging
 logger = logging.getLogger(__name__)
 
 
+def coin(request):
+    throw = randint(0, 1)
+    throw = 'Решка' if throw else 'Орёл'
+    # logger.info(f'Coin throw result - {throw}')
+    context = {
+        'game': 'бросок монеты',
+        'result': 'У вас ' + str(throw)
+    }
+    return render(request, 'choiceapp/games.html', context)
+
+
+def cube(request):
+    throw = randint(1, 6)
+    context = {
+        'game': 'бросок кубика',
+        'result': 'У вас выпала грань ' + str(throw)
+    }
+    return render(request, 'choiceapp/games.html', context)
+
+
+def random(request):
+    random_number = randint(0, 100)
+    context = {
+        'game': 'случайное число',
+        'result': 'Вам выпало ' + str(random_number)
+    }
+    return render(request, 'choiceapp/games.html', context)
+
+
 def index(request):
     logger.info('Index page accessed')
     return HttpResponse('The main page of choice app. Type coin, cube or random')
 
 
+"""
 # def text(title, result):
 #     return f'<h1> {title}</h1> ' \
 #            f'<p> Результат для вас: {result} </p>'
@@ -50,3 +82,4 @@ def random(request):
     logger.info('Random page accessed. '
                 f'Было сгенерировано значение {rnd}')
     return HttpResponse(f"Ваше случайное число от 1 до 1000: {rnd}")
+"""

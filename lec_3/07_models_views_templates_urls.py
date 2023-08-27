@@ -169,7 +169,7 @@ path('post/<int:post_id>/', post_full, name='post_full'),
 Базовый шаблон
 
 Начнём с простейшего базового шаблона. При желании добавить шапку и подвал в
-будущем, правки нужно делать только в нём. Создадим base.html:
+будущем, правки нужно делать только в нём. Создадим games.html:
 
 <!DOCTYPE html>
 <html lang="ru">
@@ -194,7 +194,7 @@ path('post/<int:post_id>/', post_full, name='post_full'),
 Теперь подключим его в дочернем шаблоне author_posts.html для вывода 5
 последних статей автора:
 
-{% extends 'base.html' %}
+{% extends 'games.html' %}
 {% block title %}{{ author.name }}'s Posts{% endblock %}
 {% block content %}
 <h2>Последние 5 статей автора: {{ author.name }}</h2>
@@ -235,7 +235,7 @@ path('post/<int:post_id>/', post_full, name='post_full'),
 
 Финальный штрих — шаблон для вывода полного текста статьи.
 
-{% extends 'base.html' %}
+{% extends 'games.html' %}
 {% block title %}{{ post.title }}{% endblock %}
 {% block content %}
 <h3>{{ post.title }}</h3>
