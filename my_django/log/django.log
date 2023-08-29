@@ -455,3 +455,76 @@ INFO 2023-08-26 00:03:01,977 autoreload 4020 760 C:\Users\HP\YandexDisk\develope
 INFO 2023-08-26 00:03:06,272 autoreload 4820 3656 Watching for file changes with StatReloader
 INFO 2023-08-26 00:08:03,151 autoreload 4820 3656 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\models.py changed, reloading.
 INFO 2023-08-26 00:08:05,726 autoreload 9776 2696 Watching for file changes with StatReloader
+INFO 2023-08-29 22:29:34,898 autoreload 8520 12576 Watching for file changes with StatReloader
+INFO 2023-08-29 22:30:47,249 views 8520 14492 Index page accessed
+INFO 2023-08-29 22:30:47,276 basehttp 8520 14492 "GET / HTTP/1.1" 200 13
+WARNING 2023-08-29 22:30:51,931 log 8520 14492 Not Found: /favicon.ico
+WARNING 2023-08-29 22:30:51,935 basehttp 8520 14492 "GET /favicon.ico HTTP/1.1" 404 2751
+INFO 2023-08-29 22:31:02,334 basehttp 8520 14492 "GET /app3/ HTTP/1.1" 200 180
+WARNING 2023-08-29 22:31:06,519 log 8520 14492 Not Found: /app4/
+WARNING 2023-08-29 22:31:06,521 basehttp 8520 14492 "GET /app4/ HTTP/1.1" 404 2807
+WARNING 2023-08-29 22:31:18,248 log 8520 14492 Not Found: /app4/add/
+WARNING 2023-08-29 22:31:18,251 basehttp 8520 14492 "GET /app4/add/ HTTP/1.1" 404 2819
+INFO 2023-08-29 22:31:31,383 basehttp 8520 14492 "GET /app4/user/add/ HTTP/1.1" 200 987
+INFO 2023-08-29 22:31:42,416 views 8520 14492 Получили name='bbb', email='bbb@mail.ru', age=23.
+INFO 2023-08-29 22:31:42,422 basehttp 8520 14492 "POST /app4/user/add/ HTTP/1.1" 200 1030
+INFO 2023-08-29 22:31:44,668 views 8520 14492 Получили name='bbb', email='bbb@mail.ru', age=23.
+INFO 2023-08-29 22:31:44,674 basehttp 8520 14492 "POST /app4/user/add/ HTTP/1.1" 200 1030
+INFO 2023-08-29 22:35:54,438 autoreload 8520 12576 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp4\forms.py changed, reloading.
+INFO 2023-08-29 22:36:00,674 autoreload 368 10880 Watching for file changes with StatReloader
+INFO 2023-08-29 22:36:27,495 autoreload 368 10880 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp4\forms.py changed, reloading.
+INFO 2023-08-29 22:36:32,453 autoreload 3440 14928 Watching for file changes with StatReloader
+INFO 2023-08-29 22:43:57,393 autoreload 3440 14928 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp4\forms.py changed, reloading.
+INFO 2023-08-29 22:43:59,647 autoreload 6700 8896 Watching for file changes with StatReloader
+INFO 2023-08-29 22:44:02,088 views 6700 6420 Index page accessed
+INFO 2023-08-29 22:44:02,118 basehttp 6700 6420 "GET / HTTP/1.1" 200 13
+WARNING 2023-08-29 22:44:04,632 log 6700 6420 Not Found: /favicon.ico
+WARNING 2023-08-29 22:44:04,699 basehttp 6700 6420 "GET /favicon.ico HTTP/1.1" 404 2751
+INFO 2023-08-29 22:44:09,503 basehttp 6700 6420 "GET /app4/user/add/ HTTP/1.1" 200 987
+INFO 2023-08-29 22:44:26,120 basehttp 6700 6420 "GET /app4/forms HTTP/1.1" 301 0
+INFO 2023-08-29 22:44:26,282 basehttp 6700 14860 "GET /app4/forms/ HTTP/1.1" 200 1630
+INFO 2023-08-29 22:44:53,163 views 6700 14860 Получили form.cleaned_data={'name': 'bbb', 'email': 'bbb@mail.ru', 'age': 23, 'height': 1.65, 'is_active': True, 'birthdate': datetime.date(2012, 8, 29), 'gender': 'F'}.
+INFO 2023-08-29 22:44:53,184 basehttp 6700 14860 "POST /app4/forms/ HTTP/1.1" 200 1703
+INFO 2023-08-29 22:52:24,180 autoreload 6700 8896 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp4\forms.py changed, reloading.
+INFO 2023-08-29 22:52:29,988 autoreload 4620 5900 Watching for file changes with StatReloader
+INFO 2023-08-29 22:55:11,148 autoreload 4620 5900 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp4\views.py changed, reloading.
+INFO 2023-08-29 22:55:15,654 autoreload 5068 8220 Watching for file changes with StatReloader
+INFO 2023-08-29 22:55:56,151 autoreload 5068 8220 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp4\views.py changed, reloading.
+INFO 2023-08-29 22:56:00,436 autoreload 11056 4776 Watching for file changes with StatReloader
+INFO 2023-08-29 22:56:19,137 basehttp 11056 6664 "POST /app4/forms/ HTTP/1.1" 200 2382
+INFO 2023-08-29 22:56:30,280 views 11056 6664 Получили form.cleaned_data={'name': 'bbb', 'email': 'bbb@mail.ru', 'age': 23, 'height': 1.65, 'is_active': True, 'birthdate': datetime.date(2012, 8, 29), 'gender': 'F', 'message': 'Hi all'}.
+INFO 2023-08-29 22:56:30,299 basehttp 11056 6664 "POST /app4/forms/ HTTP/1.1" 200 2329
+INFO 2023-08-29 22:58:30,532 autoreload 11056 4776 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp4\forms.py changed, reloading.
+INFO 2023-08-29 22:58:34,996 autoreload 5296 13888 Watching for file changes with StatReloader
+INFO 2023-08-29 22:58:49,654 autoreload 5296 13888 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp4\forms.py changed, reloading.
+INFO 2023-08-29 22:58:52,925 autoreload 12556 10900 Watching for file changes with StatReloader
+INFO 2023-08-29 22:59:38,779 views 12556 10556 Получили form.cleaned_data={'name': 'bbb', 'email': 'bbb@mail.ru', 'age': 23, 'height': 1.65, 'is_active': True, 'birthdate': datetime.date(2012, 8, 29), 'gender': 'F', 'message': 'Hi all'}.
+INFO 2023-08-29 22:59:38,954 basehttp 12556 10556 "POST /app4/forms/ HTTP/1.1" 200 2329
+INFO 2023-08-29 23:02:23,109 autoreload 12556 10900 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp4\forms.py changed, reloading.
+INFO 2023-08-29 23:02:28,076 autoreload 11732 6272 Watching for file changes with StatReloader
+INFO 2023-08-29 23:06:12,627 autoreload 11732 6272 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp4\models.py changed, reloading.
+INFO 2023-08-29 23:15:51,125 autoreload 1072 5140 Watching for file changes with StatReloader
+INFO 2023-08-29 23:15:59,078 basehttp 1072 14792 "GET /app4/user/add/ HTTP/1.1" 200 937
+INFO 2023-08-29 23:16:05,161 basehttp 1072 14792 "POST /app4/user/add/ HTTP/1.1" 200 1076
+INFO 2023-08-29 23:16:17,883 views 1072 14792 Получили name='bbb', email='bbb@corp.mail.ru', age=23.
+INFO 2023-08-29 23:16:17,888 basehttp 1072 14792 "POST /app4/user/add/ HTTP/1.1" 200 985
+INFO 2023-08-29 23:16:22,485 views 1072 14792 Получили name='bbb', email='bbb@corp.mail.ru', age=23.
+INFO 2023-08-29 23:16:22,500 basehttp 1072 14792 "POST /app4/user/add/ HTTP/1.1" 200 985
+INFO 2023-08-29 23:17:55,823 autoreload 10112 9988 Watching for file changes with StatReloader
+INFO 2023-08-29 23:17:59,829 views 10112 3256 Получили name='bbb', email='bbb@corp.mail.ru', age=23.
+INFO 2023-08-29 23:18:00,013 basehttp 10112 3256 "POST /app4/user/add/ HTTP/1.1" 200 977
+INFO 2023-08-29 23:18:09,317 basehttp 10112 3256 "GET /app4/user/ HTTP/1.1" 200 958
+INFO 2023-08-29 23:18:14,696 basehttp 10112 3256 "POST /app4/user/ HTTP/1.1" 200 1096
+INFO 2023-08-29 23:18:22,165 views 10112 3256 Получили name='bbb', email='bbb@corp.mail.ru', age=23.
+INFO 2023-08-29 23:18:22,369 basehttp 10112 3256 "POST /app4/user/ HTTP/1.1" 200 1018
+INFO 2023-08-29 23:21:42,649 autoreload 10112 9988 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp4\forms.py changed, reloading.
+INFO 2023-08-29 23:21:48,396 autoreload 5856 8416 Watching for file changes with StatReloader
+INFO 2023-08-29 23:25:11,303 autoreload 5856 8416 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\my_django\settings.py changed, reloading.
+INFO 2023-08-29 23:25:17,047 autoreload 12900 11660 Watching for file changes with StatReloader
+INFO 2023-08-29 23:26:01,327 autoreload 12900 11660 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp4\views.py changed, reloading.
+INFO 2023-08-29 23:26:06,033 autoreload 2732 8732 Watching for file changes with StatReloader
+INFO 2023-08-29 23:30:00,440 autoreload 2732 8732 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp4\urls.py changed, reloading.
+INFO 2023-08-29 23:30:05,628 autoreload 7480 13724 Watching for file changes with StatReloader
+INFO 2023-08-29 23:30:53,243 basehttp 7480 3524 "GET /app4/upload HTTP/1.1" 301 0
+INFO 2023-08-29 23:30:53,432 basehttp 7480 8584 "GET /app4/upload/ HTTP/1.1" 200 649
+INFO 2023-08-29 23:31:44,252 basehttp 7480 8584 "POST /app4/upload/ HTTP/1.1" 200 649

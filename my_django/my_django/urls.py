@@ -23,4 +23,5 @@ urlpatterns = [
     path('', include('firstapp.urls')),
     path('app3/', include('myapp3.urls')),
     path('', index), # так указать базовую страницу всего проекта
+    path('app4/', include('myapp4.urls')),
 ]
