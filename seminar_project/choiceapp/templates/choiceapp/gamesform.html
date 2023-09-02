@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Выбор игры</title>
+</head>
+<body>
+<form method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>

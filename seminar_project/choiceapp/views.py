@@ -5,6 +5,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from random import randint
 import logging
+from . import forms
 
 logger = logging.getLogger(__name__)
 
@@ -38,9 +39,27 @@ def random(request):
     return render(request, 'choiceapp/games.html', context)
 
 
+def choice(request):
+    if request.method == 'POST':
+        form = forms.ChoiceForm(request.POST)
+        if form.is_valid():
+            game = form.cleaned_data['game']
+            count = form.cleaned_data['count']
+            if game == 'c':
+                return coin(request)
+            elif game == 'cb':
+                return cube(request)
+            elif game == 'r':
+                return random(request)
+    else:
+        form = forms.ChoiceForm()
+
+    return render(request, 'choiceapp/gamesform.html', {'form': form})
+
+
 def index(request):
     logger.info('Index page accessed')
-    return HttpResponse('The main page of choice app. Type coin, cube or random')
+    return HttpResponse('The main page of choice app. Type coin, cube or random or choice')
 
 
 """

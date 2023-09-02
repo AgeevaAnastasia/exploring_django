@@ -202,3 +202,312 @@ INFO 2023-08-27 22:43:06,397 autoreload 11280 3784 Watching for file changes wit
 INFO 2023-08-27 22:43:07,085 basehttp 11280 15100 "GET /blogapp/posts/2/ HTTP/1.1" 200 769
 INFO 2023-08-27 22:43:08,889 basehttp 11280 15100 "GET /blogapp/post/7/ HTTP/1.1" 200 436
 INFO 2023-08-27 22:43:13,477 basehttp 11280 15100 "GET /blogapp/post/7/ HTTP/1.1" 200 436
+INFO 2023-09-02 17:20:51,841 autoreload 14516 4816 Watching for file changes with StatReloader
+WARNING 2023-09-02 17:21:00,595 log 14516 12596 Not Found: /
+WARNING 2023-09-02 17:21:00,604 basehttp 14516 12596 "GET / HTTP/1.1" 404 2388
+WARNING 2023-09-02 17:21:01,440 log 14516 12596 Not Found: /favicon.ico
+WARNING 2023-09-02 17:21:01,443 basehttp 14516 12596 "GET /favicon.ico HTTP/1.1" 404 2439
+INFO 2023-09-02 17:21:10,398 views 14516 12596 Index page accessed
+INFO 2023-09-02 17:21:10,408 basehttp 14516 12596 "GET /choice/ HTTP/1.1" 200 54
+ERROR 2023-09-02 17:21:26,170 log 14516 12596 Internal Server Error: /choice/gameform
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\views.py", line 29, in choice
+    return render(request, 'gamesform', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: gamesform
+ERROR 2023-09-02 17:21:26,189 basehttp 14516 12596 "GET /choice/gameform HTTP/1.1" 500 82848
+WARNING 2023-09-02 17:21:36,863 log 14516 12596 Not Found: /choice/gamesform
+WARNING 2023-09-02 17:21:36,865 basehttp 14516 12596 "GET /choice/gamesform HTTP/1.1" 404 3219
+ERROR 2023-09-02 17:21:48,389 log 14516 12596 Internal Server Error: /choice/gameform
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\views.py", line 29, in choice
+    return render(request, 'gamesform', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: gamesform
+ERROR 2023-09-02 17:21:48,456 basehttp 14516 12596 "GET /choice/gameform HTTP/1.1" 500 82848
+INFO 2023-09-02 17:22:12,909 autoreload 14516 4816 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\urls.py changed, reloading.
+INFO 2023-09-02 17:22:16,205 autoreload 13956 3252 Watching for file changes with StatReloader
+WARNING 2023-09-02 17:22:17,429 log 13956 9640 Not Found: /choice/gameform
+WARNING 2023-09-02 17:22:17,547 basehttp 13956 9640 "GET /choice/gameform HTTP/1.1" 404 3217
+ERROR 2023-09-02 17:22:21,460 log 13956 9640 Internal Server Error: /choice/gamesform
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\views.py", line 29, in choice
+    return render(request, 'gamesform', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: gamesform
+ERROR 2023-09-02 17:22:21,474 basehttp 13956 9640 "GET /choice/gamesform HTTP/1.1" 500 82860
+INFO 2023-09-02 17:22:50,985 autoreload 13956 3252 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\forms.py changed, reloading.
+INFO 2023-09-02 17:22:55,644 autoreload 10656 4164 Watching for file changes with StatReloader
+WARNING 2023-09-02 17:24:37,529 log 10656 7296 Not Found: /
+WARNING 2023-09-02 17:24:37,607 basehttp 10656 7296 "GET / HTTP/1.1" 404 2388
+WARNING 2023-09-02 17:25:01,061 log 10656 7296 Not Found: /
+WARNING 2023-09-02 17:25:01,078 basehttp 10656 7296 "GET / HTTP/1.1" 404 2388
+WARNING 2023-09-02 17:25:10,050 log 10656 7296 Not Found: /
+WARNING 2023-09-02 17:25:10,078 basehttp 10656 7296 "GET / HTTP/1.1" 404 2388
+INFO 2023-09-02 17:25:16,724 views 10656 7296 Index page accessed
+INFO 2023-09-02 17:25:16,727 basehttp 10656 7296 "GET /choice/ HTTP/1.1" 200 54
+WARNING 2023-09-02 17:25:21,830 log 10656 7296 Not Found: /choice/choice
+WARNING 2023-09-02 17:25:21,838 basehttp 10656 7296 "GET /choice/choice HTTP/1.1" 404 3211
+ERROR 2023-09-02 17:25:42,857 log 10656 7296 Internal Server Error: /choice/gamesform
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\views.py", line 29, in choice
+    return render(request, 'gamesform', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: gamesform
+ERROR 2023-09-02 17:25:42,894 basehttp 10656 7296 "GET /choice/gamesform HTTP/1.1" 500 82860
+WARNING 2023-09-02 17:26:14,696 log 10656 7296 Not Found: /choice/gamesform/
+WARNING 2023-09-02 17:26:14,697 basehttp 10656 7296 "GET /choice/gamesform/ HTTP/1.1" 404 3223
+INFO 2023-09-02 17:27:00,750 autoreload 10656 4164 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\views.py changed, reloading.
+INFO 2023-09-02 17:27:06,625 autoreload 12764 11096 Watching for file changes with StatReloader
+WARNING 2023-09-02 17:27:07,346 log 12764 7220 Not Found: /choice/gamesform/
+WARNING 2023-09-02 17:27:07,350 basehttp 12764 7220 "GET /choice/gamesform/ HTTP/1.1" 404 3223
+INFO 2023-09-02 17:27:30,230 autoreload 12104 3968 Watching for file changes with StatReloader
+WARNING 2023-09-02 17:27:34,343 log 12104 2444 Not Found: /
+WARNING 2023-09-02 17:27:34,463 basehttp 12104 2444 "GET / HTTP/1.1" 404 2388
+WARNING 2023-09-02 17:27:35,928 log 12104 2444 Not Found: /favicon.ico
+WARNING 2023-09-02 17:27:36,056 basehttp 12104 2444 "GET /favicon.ico HTTP/1.1" 404 2439
+WARNING 2023-09-02 17:27:37,179 log 12104 2444 Not Found: /choice/gamesform/
+WARNING 2023-09-02 17:27:37,202 basehttp 12104 2444 "GET /choice/gamesform/ HTTP/1.1" 404 3223
+INFO 2023-09-02 17:29:12,152 autoreload 5728 9284 Watching for file changes with StatReloader
+WARNING 2023-09-02 17:29:25,027 log 5728 2416 Not Found: /
+WARNING 2023-09-02 17:29:25,856 basehttp 5728 2416 "GET / HTTP/1.1" 404 2388
+WARNING 2023-09-02 17:29:27,595 log 5728 2416 Not Found: /favicon.ico
+WARNING 2023-09-02 17:29:27,613 basehttp 5728 2416 "GET /favicon.ico HTTP/1.1" 404 2439
+WARNING 2023-09-02 17:29:33,845 log 5728 2416 Not Found: /choice/games/
+WARNING 2023-09-02 17:29:33,847 basehttp 5728 2416 "GET /choice/games/ HTTP/1.1" 404 3211
+WARNING 2023-09-02 17:29:41,559 log 5728 2416 Not Found: /games/
+WARNING 2023-09-02 17:29:41,561 basehttp 5728 2416 "GET /games/ HTTP/1.1" 404 2424
+INFO 2023-09-02 17:29:50,452 views 5728 2416 Index page accessed
+INFO 2023-09-02 17:29:50,457 basehttp 5728 2416 "GET /choice/ HTTP/1.1" 200 54
+WARNING 2023-09-02 17:29:55,547 log 5728 2416 Not Found: /choice/games
+WARNING 2023-09-02 17:29:55,555 basehttp 5728 2416 "GET /choice/games HTTP/1.1" 404 3208
+WARNING 2023-09-02 17:30:07,206 log 5728 2416 Not Found: /choice/index
+WARNING 2023-09-02 17:30:07,210 basehttp 5728 2416 "GET /choice/index HTTP/1.1" 404 3208
+WARNING 2023-09-02 17:30:13,546 log 5728 2416 Not Found: /choice/games
+WARNING 2023-09-02 17:30:13,557 basehttp 5728 2416 "GET /choice/games HTTP/1.1" 404 3208
+INFO 2023-09-02 17:30:44,354 autoreload 5728 9284 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\urls.py changed, reloading.
+INFO 2023-09-02 17:30:47,528 autoreload 10868 15132 Watching for file changes with StatReloader
+INFO 2023-09-02 17:30:49,326 basehttp 10868 7764 "GET /choice/choice HTTP/1.1" 301 0
+ERROR 2023-09-02 17:30:49,543 log 10868 12508 Internal Server Error: /choice/choice/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\views.py", line 29, in choice
+    return render(request, 'gamesform.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: gamesform.html
+ERROR 2023-09-02 17:30:49,561 basehttp 10868 12508 "GET /choice/choice/ HTTP/1.1" 500 82936
+INFO 2023-09-02 17:31:14,069 autoreload 9144 12052 Watching for file changes with StatReloader
+WARNING 2023-09-02 17:31:18,344 log 9144 4704 Not Found: /
+WARNING 2023-09-02 17:31:19,078 basehttp 9144 4704 "GET / HTTP/1.1" 404 2388
+WARNING 2023-09-02 17:31:20,523 log 9144 4704 Not Found: /favicon.ico
+WARNING 2023-09-02 17:31:20,556 basehttp 9144 4704 "GET /favicon.ico HTTP/1.1" 404 2439
+ERROR 2023-09-02 17:31:24,889 log 9144 4704 Internal Server Error: /choice/choice/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\views.py", line 29, in choice
+    return render(request, 'gamesform.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: gamesform.html
+ERROR 2023-09-02 17:31:24,971 basehttp 9144 4704 "GET /choice/choice/ HTTP/1.1" 500 82936
+ERROR 2023-09-02 17:37:26,571 log 9144 536 Internal Server Error: /choice/choice/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\views.py", line 29, in choice
+    return render(request, 'gamesform.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: gamesform.html
+ERROR 2023-09-02 17:37:26,666 basehttp 9144 536 "GET /choice/choice/ HTTP/1.1" 500 83073
+INFO 2023-09-02 17:39:19,522 autoreload 9144 12052 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\views.py changed, reloading.
+INFO 2023-09-02 17:39:22,759 autoreload 13292 14984 Watching for file changes with StatReloader
+INFO 2023-09-02 17:46:20,067 autoreload 1860 13904 Watching for file changes with StatReloader
+ERROR 2023-09-02 17:46:22,889 log 1860 4236 Internal Server Error: /choice/choice/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\views.py", line 62, in choice
+    return render(request, 'gamesform.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: gamesform.html
+ERROR 2023-09-02 17:46:23,027 basehttp 1860 4236 "GET /choice/choice/ HTTP/1.1" 500 83152
+INFO 2023-09-02 17:48:31,118 autoreload 1860 13904 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\views.py changed, reloading.
+INFO 2023-09-02 17:48:33,652 autoreload 5260 6680 Watching for file changes with StatReloader
+INFO 2023-09-02 17:49:01,727 autoreload 5260 6680 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\choiceapp\views.py changed, reloading.
+INFO 2023-09-02 17:49:04,155 autoreload 12644 6516 Watching for file changes with StatReloader
+INFO 2023-09-02 17:49:05,361 basehttp 12644 896 "GET /choice/choice/ HTTP/1.1" 200 722
+WARNING 2023-09-02 17:51:04,663 log 12644 12172 Not Found: /
+WARNING 2023-09-02 17:51:04,924 basehttp 12644 12172 "GET / HTTP/1.1" 404 2388
+WARNING 2023-09-02 17:51:06,522 log 12644 12172 Not Found: /favicon.ico
+WARNING 2023-09-02 17:51:06,537 basehttp 12644 12172 "GET /favicon.ico HTTP/1.1" 404 2439
+INFO 2023-09-02 17:51:16,623 basehttp 12644 12172 "GET /choice/choice/ HTTP/1.1" 200 759
+INFO 2023-09-02 17:52:46,252 basehttp 12644 12172 "GET /choice/choice/ HTTP/1.1" 200 798
+INFO 2023-09-02 17:52:48,678 basehttp 12644 12172 "POST /choice/choice/ HTTP/1.1" 200 218
+INFO 2023-09-02 18:14:57,762 autoreload 2244 14572 Watching for file changes with StatReloader
+WARNING 2023-09-02 18:14:59,664 log 2244 4748 Not Found: /
+WARNING 2023-09-02 18:15:00,391 basehttp 2244 4748 "GET / HTTP/1.1" 404 2388
+WARNING 2023-09-02 18:15:01,903 log 2244 4748 Not Found: /favicon.ico
+WARNING 2023-09-02 18:15:02,036 basehttp 2244 4748 "GET /favicon.ico HTTP/1.1" 404 2439
+WARNING 2023-09-02 18:15:17,553 log 2244 4748 Not Found: /blogapp/
+WARNING 2023-09-02 18:15:17,554 basehttp 2244 4748 "GET /blogapp/ HTTP/1.1" 404 3062
+INFO 2023-09-02 18:15:28,256 basehttp 2244 4748 "GET /blogapp/author HTTP/1.1" 301 0
+INFO 2023-09-02 18:15:28,413 basehttp 2244 6832 "GET /blogapp/author/ HTTP/1.1" 200 1387
+ERROR 2023-09-02 18:16:29,342 log 2244 6832 Internal Server Error: /blogapp/author/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py", line 27, in author_form
+    surname=form.cleaned_data['surname'],
+            ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'surname'
+ERROR 2023-09-02 18:16:29,357 basehttp 2244 6832 "POST /blogapp/author/ HTTP/1.1" 500 68572
+INFO 2023-09-02 18:17:22,065 autoreload 2244 14572 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py changed, reloading.
+INFO 2023-09-02 18:17:25,350 autoreload 1956 11396 Watching for file changes with StatReloader
+ERROR 2023-09-02 18:17:27,934 log 1956 3228 Internal Server Error: /blogapp/author/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py", line 27, in author_form
+    lastname=form.cleaned_data['surname'],
+             ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'surname'
+ERROR 2023-09-02 18:17:27,950 basehttp 1956 3228 "POST /blogapp/author/ HTTP/1.1" 500 68570
+INFO 2023-09-02 18:17:44,580 autoreload 13340 6244 Watching for file changes with StatReloader
+ERROR 2023-09-02 18:17:47,689 log 13340 14184 Internal Server Error: /blogapp/author/
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py", line 27, in author_form
+    lastname=form.cleaned_data['surname'],
+             ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'surname'
+ERROR 2023-09-02 18:17:47,755 basehttp 13340 14184 "POST /blogapp/author/ HTTP/1.1" 500 68570
+INFO 2023-09-02 18:18:09,632 autoreload 13340 6244 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\seminar_project\blogapp\views.py changed, reloading.
+INFO 2023-09-02 18:18:12,353 autoreload 10200 10288 Watching for file changes with StatReloader
+INFO 2023-09-02 18:18:13,365 basehttp 10200 5804 "POST /blogapp/author/ HTTP/1.1" 200 1538
+INFO 2023-09-02 18:20:06,840 autoreload 14564 9452 Watching for file changes with StatReloader
+WARNING 2023-09-02 18:20:11,771 log 14564 15224 Not Found: /
+WARNING 2023-09-02 18:20:12,342 basehttp 14564 15224 "GET / HTTP/1.1" 404 2388
+WARNING 2023-09-02 18:20:13,930 log 14564 15224 Not Found: /favicon.ico
+WARNING 2023-09-02 18:20:13,961 basehttp 14564 15224 "GET /favicon.ico HTTP/1.1" 404 2439
+WARNING 2023-09-02 18:20:21,424 log 14564 15224 Not Found: /vlogapp/create_post/
+WARNING 2023-09-02 18:20:21,425 basehttp 14564 15224 "GET /vlogapp/create_post/ HTTP/1.1" 404 2466
+INFO 2023-09-02 18:20:26,910 basehttp 14564 15224 "GET /blogapp/create_post/ HTTP/1.1" 200 3896
+INFO 2023-09-02 18:21:47,151 basehttp 14564 15224 "POST /blogapp/create_post/ HTTP/1.1" 200 4358
