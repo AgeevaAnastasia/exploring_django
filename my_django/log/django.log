@@ -528,3 +528,273 @@ INFO 2023-08-29 23:30:05,628 autoreload 7480 13724 Watching for file changes wit
 INFO 2023-08-29 23:30:53,243 basehttp 7480 3524 "GET /app4/upload HTTP/1.1" 301 0
 INFO 2023-08-29 23:30:53,432 basehttp 7480 8584 "GET /app4/upload/ HTTP/1.1" 200 649
 INFO 2023-08-29 23:31:44,252 basehttp 7480 8584 "POST /app4/upload/ HTTP/1.1" 200 649
+INFO 2023-09-04 16:52:20,650 autoreload 6036 9644 Watching for file changes with StatReloader
+INFO 2023-09-04 16:52:23,576 views 6036 9324 Index page accessed
+INFO 2023-09-04 16:52:24,517 basehttp 6036 9324 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-04 16:52:29,220 log 6036 9324 Not Found: /favicon.ico
+WARNING 2023-09-04 16:52:29,388 basehttp 6036 9324 "GET /favicon.ico HTTP/1.1" 404 2751
+INFO 2023-09-04 16:52:36,780 basehttp 6036 9324 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-04 16:52:36,914 basehttp 6036 4324 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 16:52:38,197 basehttp 6036 4324 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-04 16:52:39,432 basehttp 6036 9816 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-09-04 16:52:39,433 basehttp 6036 2680 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-09-04 16:52:39,435 basehttp 6036 14440 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-09-04 16:52:39,578 basehttp 6036 4324 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-09-04 16:52:39,677 basehttp 6036 11064 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-09-04 16:52:39,680 basehttp 6036 740 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-09-04 16:52:40,246 basehttp 6036 9816 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-09-04 16:52:55,079 basehttp 6036 9816 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 16:52:55,378 basehttp 6036 9816 "GET /admin/ HTTP/1.1" 200 5856
+INFO 2023-09-04 16:52:55,418 basehttp 6036 9816 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-09-04 16:52:55,482 basehttp 6036 740 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-04 16:52:55,506 basehttp 6036 9816 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-09-04 17:41:43,250 basehttp 6036 8640 "GET /admin/auth/user/ HTTP/1.1" 200 11328
+INFO 2023-09-04 17:41:44,024 basehttp 6036 8640 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-09-04 17:41:44,197 basehttp 6036 11708 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 17:41:44,597 basehttp 6036 7792 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-04 17:41:44,679 basehttp 6036 8640 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-04 17:41:44,882 basehttp 6036 5108 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-04 17:41:45,060 basehttp 6036 11708 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-09-04 17:41:45,198 basehttp 6036 10792 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-04 17:41:45,211 basehttp 6036 7792 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-09-04 17:41:45,396 basehttp 6036 14604 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-04 17:41:45,545 basehttp 6036 8640 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-09-04 17:41:46,342 basehttp 6036 14604 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-09-04 17:41:47,440 basehttp 6036 8640 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-09-04 17:41:47,489 basehttp 6036 14604 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-09-04 17:41:49,137 basehttp 6036 14604 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-09-04 17:41:49,143 basehttp 6036 8640 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-09-04 17:42:04,276 basehttp 6036 8640 "GET /admin/auth/user/add/ HTTP/1.1" 200 10992
+INFO 2023-09-04 17:42:04,713 basehttp 6036 10792 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 17:42:04,778 basehttp 6036 8640 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-09-04 17:42:05,345 basehttp 6036 14604 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-09-04 17:42:06,113 basehttp 6036 8640 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-09-04 17:42:06,116 basehttp 6036 14604 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-09-04 17:44:27,376 basehttp 6036 14604 "POST /admin/auth/user/add/ HTTP/1.1" 200 11364
+INFO 2023-09-04 17:44:27,998 basehttp 6036 14604 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 17:44:43,123 basehttp 6036 14604 "POST /admin/auth/user/add/ HTTP/1.1" 200 11268
+INFO 2023-09-04 17:44:43,715 basehttp 6036 14604 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 17:45:04,662 basehttp 6036 14604 "POST /admin/auth/user/add/ HTTP/1.1" 200 11268
+INFO 2023-09-04 17:45:04,816 basehttp 6036 14604 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 17:45:26,354 basehttp 6036 14604 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-09-04 17:45:26,709 basehttp 6036 14604 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23924
+INFO 2023-09-04 17:45:26,930 basehttp 6036 8640 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 17:45:27,059 basehttp 6036 11708 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-09-04 17:45:27,073 basehttp 6036 14604 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-09-04 17:45:27,083 basehttp 6036 10792 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-09-04 17:45:27,110 basehttp 6036 7792 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-09-04 17:45:27,733 basehttp 6036 7792 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-09-04 17:45:27,796 basehttp 6036 10792 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-09-04 17:45:27,809 basehttp 6036 14604 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-09-04 17:45:27,843 basehttp 6036 8640 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-09-04 17:45:27,871 basehttp 6036 11708 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-09-04 17:46:07,961 basehttp 6036 11708 "GET /admin/auth/group/add/ HTTP/1.1" 200 13318
+INFO 2023-09-04 17:46:08,432 basehttp 6036 11708 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 18:03:49,812 basehttp 6036 11312 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:03:49,901 basehttp 6036 11312 "GET /admin/auth/group/ HTTP/1.1" 200 9118
+INFO 2023-09-04 18:03:50,062 basehttp 6036 11312 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 18:03:51,834 basehttp 6036 11312 "GET /admin/auth/user/ HTTP/1.1" 200 12016
+INFO 2023-09-04 18:03:52,014 basehttp 6036 14484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 18:03:52,042 basehttp 6036 11312 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2023-09-04 18:03:53,646 basehttp 6036 14484 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23669
+INFO 2023-09-04 18:03:53,912 basehttp 6036 14484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 18:04:04,556 basehttp 6036 14484 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:04:04,642 basehttp 6036 14484 "GET /admin/auth/user/ HTTP/1.1" 200 12236
+INFO 2023-09-04 18:04:04,754 basehttp 6036 14484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 18:04:28,881 basehttp 6036 14484 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-04 18:04:30,358 basehttp 6036 14484 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:04:30,438 basehttp 6036 14484 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-04 18:04:42,223 basehttp 6036 14484 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:04:42,257 basehttp 6036 14484 "GET /admin/ HTTP/1.1" 200 4797
+INFO 2023-09-04 18:07:18,067 autoreload 6036 9644 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\models.py changed, reloading.
+INFO 2023-09-04 18:07:38,881 autoreload 8272 6520 Watching for file changes with StatReloader
+INFO 2023-09-04 18:07:45,660 autoreload 8272 6520 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\models.py changed, reloading.
+INFO 2023-09-04 18:07:51,651 autoreload 12060 6672 Watching for file changes with StatReloader
+INFO 2023-09-04 18:12:39,079 autoreload 12116 14708 Watching for file changes with StatReloader
+INFO 2023-09-04 18:12:44,177 basehttp 12116 11188 "GET /admin/ HTTP/1.1" 200 4797
+INFO 2023-09-04 18:13:28,046 basehttp 12116 11188 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-04 18:13:31,681 basehttp 12116 11188 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:13:31,907 basehttp 12116 11188 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-04 18:13:52,579 basehttp 12116 11188 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:13:52,621 basehttp 12116 11188 "GET /admin/ HTTP/1.1" 200 7909
+INFO 2023-09-04 18:16:26,866 autoreload 12116 14708 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\admin.py changed, reloading.
+INFO 2023-09-04 18:16:35,237 autoreload 9172 6024 Watching for file changes with StatReloader
+INFO 2023-09-04 18:17:08,325 basehttp 9172 3636 "GET /admin/ HTTP/1.1" 200 9024
+INFO 2023-09-04 18:20:03,507 basehttp 9172 3636 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-04 18:20:05,507 basehttp 9172 3636 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:20:05,555 basehttp 9172 3636 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-04 18:20:17,535 basehttp 9172 3636 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:20:17,572 basehttp 9172 3636 "GET /admin/ HTTP/1.1" 200 4797
+INFO 2023-09-04 18:20:29,776 basehttp 9172 3636 "GET /admin/ HTTP/1.1" 200 4797
+INFO 2023-09-04 18:20:46,586 basehttp 9172 3636 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-04 18:20:48,395 basehttp 9172 3636 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:20:48,427 basehttp 9172 3636 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-04 18:21:04,279 basehttp 9172 3636 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:21:04,324 basehttp 9172 3636 "GET /admin/ HTTP/1.1" 200 9024
+INFO 2023-09-04 18:21:08,905 basehttp 9172 3636 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25966
+INFO 2023-09-04 18:21:09,286 basehttp 9172 3636 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 18:21:16,018 basehttp 9172 3636 "GET /admin/auth/group/ HTTP/1.1" 200 10599
+INFO 2023-09-04 18:21:16,273 basehttp 9172 3636 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 18:21:21,767 basehttp 9172 3636 "GET /admin/auth/group/1/change/ HTTP/1.1" 200 15810
+INFO 2023-09-04 18:21:22,162 basehttp 9172 3636 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 18:21:30,695 basehttp 9172 3636 "GET /admin/auth/user/ HTTP/1.1" 200 13710
+INFO 2023-09-04 18:21:31,060 basehttp 9172 3636 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 18:21:37,963 basehttp 9172 3636 "GET /admin/myapp3/post/ HTTP/1.1" 200 31594
+INFO 2023-09-04 18:21:38,191 basehttp 9172 3636 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 18:21:42,715 basehttp 9172 3636 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-04 18:21:44,011 basehttp 9172 3636 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:21:44,036 basehttp 9172 3636 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-04 18:21:49,651 basehttp 9172 3636 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:21:49,694 basehttp 9172 3636 "GET /admin/ HTTP/1.1" 200 4797
+INFO 2023-09-04 18:22:35,151 autoreload 13480 13172 Watching for file changes with StatReloader
+INFO 2023-09-04 18:22:40,825 views 13480 15156 Index page accessed
+INFO 2023-09-04 18:22:41,247 basehttp 13480 15156 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-04 18:22:46,307 log 13480 15156 Not Found: /favicon.ico
+WARNING 2023-09-04 18:22:46,553 basehttp 13480 15156 "GET /favicon.ico HTTP/1.1" 404 2751
+INFO 2023-09-04 18:22:51,564 basehttp 13480 4332 "GET /admin/ HTTP/1.1" 200 4797
+INFO 2023-09-04 18:23:00,608 basehttp 13480 4332 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-04 18:23:02,368 basehttp 13480 4332 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:23:02,447 basehttp 13480 4332 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-04 18:23:08,559 basehttp 13480 4332 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:23:08,618 basehttp 13480 4332 "GET /admin/ HTTP/1.1" 200 9024
+INFO 2023-09-04 18:23:11,161 basehttp 13480 4332 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25966
+INFO 2023-09-04 18:23:11,377 basehttp 13480 4332 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 18:23:49,023 basehttp 13480 4332 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:23:49,220 basehttp 13480 4332 "GET /admin/auth/user/ HTTP/1.1" 200 13942
+INFO 2023-09-04 18:23:49,390 basehttp 13480 4332 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 18:23:56,794 basehttp 13480 4332 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 26014
+INFO 2023-09-04 18:23:57,107 basehttp 13480 4332 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-04 18:24:09,393 basehttp 13480 4332 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-04 18:24:10,912 basehttp 13480 4332 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:24:10,941 basehttp 13480 4332 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-04 18:24:15,927 basehttp 13480 4332 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-04 18:24:15,975 basehttp 13480 4332 "GET /admin/ HTTP/1.1" 200 4805
+INFO 2023-09-04 18:24:18,457 basehttp 13480 4332 "GET /admin/ HTTP/1.1" 200 4805
+INFO 2023-09-05 08:24:36,796 autoreload 6624 13020 Watching for file changes with StatReloader
+INFO 2023-09-05 08:24:42,564 views 6624 11120 Index page accessed
+INFO 2023-09-05 08:24:43,012 basehttp 6624 11120 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-05 08:24:46,681 log 6624 11120 Not Found: /favicon.ico
+WARNING 2023-09-05 08:24:46,697 basehttp 6624 11120 "GET /favicon.ico HTTP/1.1" 404 2751
+INFO 2023-09-05 08:24:58,413 basehttp 6624 11120 "GET /admin/ HTTP/1.1" 200 4805
+INFO 2023-09-05 08:25:02,402 basehttp 6624 11120 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-05 08:25:04,171 basehttp 6624 11120 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-05 08:25:05,527 basehttp 6624 11120 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-05 08:25:12,579 basehttp 6624 11120 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-05 08:25:12,637 basehttp 6624 11120 "GET /admin/ HTTP/1.1" 200 9323
+INFO 2023-09-05 08:25:17,661 basehttp 6624 11120 "GET /admin/myapp3/post/ HTTP/1.1" 200 31594
+INFO 2023-09-05 08:25:18,206 basehttp 6624 11120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:25:22,659 basehttp 6624 11120 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 9825
+INFO 2023-09-05 08:25:23,056 basehttp 6624 11120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:25:56,291 basehttp 6624 11120 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-05 08:25:56,922 basehttp 6624 11120 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 10115
+INFO 2023-09-05 08:25:57,192 basehttp 6624 11120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:26:03,309 basehttp 6624 11120 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-05 08:26:03,476 basehttp 6624 11120 "GET /admin/myapp5/category/ HTTP/1.1" 200 10666
+INFO 2023-09-05 08:26:03,656 basehttp 6624 11120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:26:05,521 basehttp 6624 11120 "GET /admin/myapp5/product/ HTTP/1.1" 200 8977
+INFO 2023-09-05 08:26:05,779 basehttp 6624 11120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:26:07,729 basehttp 6624 11120 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11679
+INFO 2023-09-05 08:26:07,994 basehttp 6624 11120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:26:08,272 basehttp 6624 5040 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-09-05 08:26:15,115 basehttp 6624 5040 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-05 08:26:15,189 basehttp 6624 5040 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11960
+INFO 2023-09-05 08:26:15,503 basehttp 6624 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:26:21,644 basehttp 6624 5040 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-05 08:26:21,789 basehttp 6624 5040 "GET /admin/myapp5/product/ HTTP/1.1" 200 10659
+INFO 2023-09-05 08:26:21,926 basehttp 6624 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:26:24,328 basehttp 6624 5040 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 11927
+INFO 2023-09-05 08:26:24,493 basehttp 6624 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:26:28,783 basehttp 6624 5040 "POST /admin/myapp5/product/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-05 08:26:28,888 basehttp 6624 5040 "GET /admin/myapp5/product/ HTTP/1.1" 200 10661
+INFO 2023-09-05 08:26:29,024 basehttp 6624 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:26:40,022 basehttp 6624 5040 "GET /admin/myapp5/product/1/change/ HTTP/1.1" 200 11895
+INFO 2023-09-05 08:26:40,551 basehttp 6624 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:26:45,227 basehttp 6624 5040 "POST /admin/myapp5/product/1/change/ HTTP/1.1" 302 0
+INFO 2023-09-05 08:26:45,393 basehttp 6624 5040 "GET /admin/myapp5/product/ HTTP/1.1" 200 10653
+INFO 2023-09-05 08:26:45,908 basehttp 6624 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:26:48,677 basehttp 6624 5040 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11679
+INFO 2023-09-05 08:26:49,240 basehttp 6624 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:26:56,586 basehttp 6624 5040 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-05 08:26:56,786 basehttp 6624 5040 "GET /admin/myapp5/product/ HTTP/1.1" 200 10870
+INFO 2023-09-05 08:26:57,187 basehttp 6624 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:27:02,714 basehttp 6624 5040 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11679
+INFO 2023-09-05 08:27:03,646 basehttp 6624 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:27:09,961 basehttp 6624 5040 "GET /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4478
+INFO 2023-09-05 08:27:11,890 basehttp 6624 5040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:27:23,208 basehttp 6624 11120 "POST /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4677
+INFO 2023-09-05 08:27:25,978 basehttp 6624 5040 - Broken pipe from ('127.0.0.1', 52938)
+INFO 2023-09-05 08:27:26,886 basehttp 6624 11120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:27:52,309 basehttp 6624 11120 "GET /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4478
+INFO 2023-09-05 08:27:52,656 basehttp 6624 11120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:27:56,960 basehttp 6624 11120 "POST /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4677
+INFO 2023-09-05 08:27:57,430 basehttp 6624 11120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:28:04,007 basehttp 6624 11120 "GET /admin/myapp5/category/ HTTP/1.1" 200 10670
+INFO 2023-09-05 08:28:04,320 basehttp 6624 11120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:28:06,815 basehttp 6624 11120 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11724
+INFO 2023-09-05 08:28:07,111 basehttp 6624 11120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:28:13,962 basehttp 6624 11120 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-05 08:28:14,042 basehttp 6624 11120 "GET /admin/myapp5/product/ HTTP/1.1" 200 11075
+INFO 2023-09-05 08:28:14,189 basehttp 6624 11120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:28:19,755 basehttp 6624 11120 "GET /admin/myapp5/product/1/change/ HTTP/1.1" 200 11940
+INFO 2023-09-05 08:28:20,187 basehttp 6624 11120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:28:21,875 basehttp 6624 11120 "GET /admin/myapp5/product/1/delete/ HTTP/1.1" 200 9031
+INFO 2023-09-05 08:28:22,888 basehttp 6624 11120 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2023-09-05 08:28:24,795 basehttp 6624 11120 "POST /admin/myapp5/product/1/delete/ HTTP/1.1" 302 0
+INFO 2023-09-05 08:28:24,888 basehttp 6624 11120 "GET /admin/myapp5/product/ HTTP/1.1" 200 10820
+INFO 2023-09-05 08:28:25,092 basehttp 6624 11120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:33:46,641 autoreload 6624 13020 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\models.py changed, reloading.
+INFO 2023-09-05 08:34:11,920 autoreload 6864 7224 Watching for file changes with StatReloader
+INFO 2023-09-05 08:35:19,675 autoreload 6864 7224 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\models.py changed, reloading.
+INFO 2023-09-05 08:35:23,339 autoreload 9144 8884 Watching for file changes with StatReloader
+INFO 2023-09-05 08:42:58,277 autoreload 4132 11376 Watching for file changes with StatReloader
+INFO 2023-09-05 08:43:35,085 basehttp 4132 4628 "GET /admin/ HTTP/1.1" 200 11007
+INFO 2023-09-05 08:43:36,656 basehttp 4132 4628 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2023-09-05 08:43:44,255 basehttp 4132 4628 "GET /admin/myapp5/product/ HTTP/1.1" 200 10658
+INFO 2023-09-05 08:43:44,458 basehttp 4132 4628 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:43:48,274 basehttp 4132 4628 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 14496
+INFO 2023-09-05 08:43:48,582 basehttp 4132 4628 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:47:56,200 autoreload 4132 11376 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\admin.py changed, reloading.
+INFO 2023-09-05 08:48:02,420 autoreload 14464 4456 Watching for file changes with StatReloader
+INFO 2023-09-05 08:48:25,169 autoreload 14464 4456 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\admin.py changed, reloading.
+INFO 2023-09-05 08:48:37,111 autoreload 1888 5056 Watching for file changes with StatReloader
+INFO 2023-09-05 08:48:45,192 autoreload 1888 5056 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\admin.py changed, reloading.
+INFO 2023-09-05 08:48:51,945 autoreload 5456 7816 Watching for file changes with StatReloader
+INFO 2023-09-05 08:49:10,008 autoreload 5456 7816 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\admin.py changed, reloading.
+INFO 2023-09-05 08:49:18,040 autoreload 14352 14392 Watching for file changes with StatReloader
+INFO 2023-09-05 08:49:25,844 basehttp 14352 13504 "GET /admin/myapp5/product/ HTTP/1.1" 200 11196
+INFO 2023-09-05 08:49:26,078 basehttp 14352 13504 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 08:50:43,324 autoreload 14352 14392 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\admin.py changed, reloading.
+INFO 2023-09-05 08:50:48,016 autoreload 6512 3784 Watching for file changes with StatReloader
+INFO 2023-09-05 08:51:05,876 basehttp 6512 15304 "GET /admin/myapp5/product/ HTTP/1.1" 200 11986
+INFO 2023-09-05 08:51:06,155 basehttp 6512 15304 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 09:08:36,641 autoreload 6512 3784 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\admin.py changed, reloading.
+INFO 2023-09-05 09:08:43,540 autoreload 14940 15168 Watching for file changes with StatReloader
+INFO 2023-09-05 09:08:49,117 basehttp 14940 64 "GET /admin/myapp5/product/ HTTP/1.1" 200 13176
+INFO 2023-09-05 09:08:49,644 basehttp 14940 64 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 09:09:52,191 autoreload 14940 15168 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\admin.py changed, reloading.
+INFO 2023-09-05 09:09:59,856 autoreload 8868 7224 Watching for file changes with StatReloader
+INFO 2023-09-05 09:10:13,392 basehttp 8868 9736 "GET /admin/myapp5/product/ HTTP/1.1" 200 13670
+INFO 2023-09-05 09:10:16,620 basehttp 8868 9736 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 09:10:30,377 basehttp 8868 9736 "GET /admin/myapp5/product/?q=%D0%BA%D0%BE%D0%BB HTTP/1.1" 200 11623
+INFO 2023-09-05 09:10:32,556 basehttp 8868 9736 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 09:10:39,742 basehttp 8868 9736 "GET /admin/myapp5/product/ HTTP/1.1" 200 13670
+INFO 2023-09-05 09:12:22,875 autoreload 8868 7224 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\admin.py changed, reloading.
+INFO 2023-09-05 09:12:28,890 autoreload 10572 11948 Watching for file changes with StatReloader
+INFO 2023-09-05 09:12:50,665 autoreload 10572 11948 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\admin.py changed, reloading.
+INFO 2023-09-05 09:13:01,911 autoreload 11440 14960 Watching for file changes with StatReloader
+INFO 2023-09-05 09:13:48,042 basehttp 11440 14860 "GET /admin/myapp5/product/ HTTP/1.1" 200 13763
+INFO 2023-09-05 09:13:49,172 basehttp 11440 14860 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 09:14:04,449 basehttp 11440 14860 "POST /admin/myapp5/product/ HTTP/1.1" 302 0
+INFO 2023-09-05 09:14:04,972 basehttp 11440 14860 "GET /admin/myapp5/product/ HTTP/1.1" 200 13763
+INFO 2023-09-05 09:14:06,009 basehttp 11440 14860 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 09:17:30,142 autoreload 11440 14960 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\admin.py changed, reloading.
+INFO 2023-09-05 09:17:40,472 autoreload 7368 12096 Watching for file changes with StatReloader
+INFO 2023-09-05 09:17:58,369 basehttp 7368 11800 "GET /admin/myapp5/product/ HTTP/1.1" 200 13763
+INFO 2023-09-05 09:17:59,015 basehttp 7368 11800 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 09:18:01,254 basehttp 7368 11800 "GET /admin/myapp5/product/3/change/ HTTP/1.1" 200 14974
+INFO 2023-09-05 09:18:01,843 basehttp 7368 11800 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 09:19:12,410 autoreload 7368 12096 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp5\admin.py changed, reloading.
+INFO 2023-09-05 09:19:16,986 autoreload 11088 5932 Watching for file changes with StatReloader
+INFO 2023-09-05 09:19:52,058 basehttp 11088 2340 "GET /admin/myapp5/product/3/change/ HTTP/1.1" 200 15623
+INFO 2023-09-05 09:19:52,440 basehttp 11088 4032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-05 09:19:53,458 basehttp 11088 2340 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
