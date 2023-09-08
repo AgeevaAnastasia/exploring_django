@@ -20,8 +20,10 @@ from myapp3.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('firstapp.urls')),
+    #path('', include('firstapp.urls')),
     path('app3/', include('myapp3.urls')),
     path('', index), # так указать базовую страницу всего проекта
     path('app4/', include('myapp4.urls')),
+    #path('__debug__/', include("debug_toolbar.urls")),
+    path('app6/', include('myapp6.urls')),
 ]
