@@ -798,3 +798,167 @@ INFO 2023-09-05 09:19:16,986 autoreload 11088 5932 Watching for file changes wit
 INFO 2023-09-05 09:19:52,058 basehttp 11088 2340 "GET /admin/myapp5/product/3/change/ HTTP/1.1" 200 15623
 INFO 2023-09-05 09:19:52,440 basehttp 11088 4032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
 INFO 2023-09-05 09:19:53,458 basehttp 11088 2340 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-09-07 14:16:01,934 autoreload 8860 11760 Watching for file changes with StatReloader
+INFO 2023-09-07 14:16:06,231 views 8860 10076 Index page accessed
+INFO 2023-09-07 14:16:07,720 basehttp 8860 10076 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-07 14:16:08,555 log 8860 10076 Not Found: /favicon.ico
+WARNING 2023-09-07 14:16:08,559 basehttp 8860 10076 "GET /favicon.ico HTTP/1.1" 404 12628
+INFO 2023-09-07 14:17:23,889 autoreload 8860 11760 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\my_django\urls.py changed, reloading.
+INFO 2023-09-07 14:17:31,657 autoreload 1080 15040 Watching for file changes with StatReloader
+INFO 2023-09-07 14:18:55,675 autoreload 1080 15040 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\my_django\urls.py changed, reloading.
+INFO 2023-09-07 14:19:02,887 autoreload 10564 7568 Watching for file changes with StatReloader
+INFO 2023-09-07 14:19:32,334 autoreload 10564 7568 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\my_django\urls.py changed, reloading.
+INFO 2023-09-07 14:19:35,408 autoreload 9136 12900 Watching for file changes with StatReloader
+INFO 2023-09-07 14:19:37,583 views 9136 2628 Index page accessed
+INFO 2023-09-07 14:19:38,525 basehttp 9136 2628 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-07 14:19:39,983 log 9136 2628 Not Found: /favicon.ico
+WARNING 2023-09-07 14:19:39,986 basehttp 9136 2628 "GET /favicon.ico HTTP/1.1" 404 12628
+INFO 2023-09-07 14:21:42,481 autoreload 9136 12900 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py changed, reloading.
+INFO 2023-09-07 14:21:57,750 autoreload 10116 7344 Watching for file changes with StatReloader
+INFO 2023-09-07 14:22:03,283 views 10116 2900 Index page accessed
+INFO 2023-09-07 14:22:03,637 basehttp 10116 2900 "GET / HTTP/1.1" 200 13
+INFO 2023-09-07 14:22:19,214 autoreload 10116 7344 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\my_django\urls.py changed, reloading.
+INFO 2023-09-07 14:22:23,136 autoreload 196 4552 Watching for file changes with StatReloader
+ERROR 2023-09-07 14:22:26,112 log 196 8136 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py", line 76, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2023-09-07 14:22:26,270 basehttp 196 8136 "GET / HTTP/1.1" 500 93828
+INFO 2023-09-07 14:22:31,358 basehttp 196 8136 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-09-07 14:22:31,369 basehttp 196 13956 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-09-07 14:22:31,886 basehttp 196 13956 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-09-07 14:22:31,899 basehttp 196 8136 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2023-09-07 14:22:52,650 autoreload 196 4552 C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py changed, reloading.
+INFO 2023-09-07 14:22:58,648 autoreload 14932 5744 Watching for file changes with StatReloader
+ERROR 2023-09-07 14:23:01,397 log 14932 13708 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\test\utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: /base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\my_django\myapp3\views.py", line 76, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\HP\YandexDisk\developer_education\python_projects\PycharmProjects\exploring_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: /base.html
+ERROR 2023-09-07 14:23:01,547 basehttp 14932 13708 "GET / HTTP/1.1" 500 140885
+INFO 2023-09-07 14:24:01,196 autoreload 11000 14096 Watching for file changes with StatReloader
+INFO 2023-09-07 14:24:04,082 basehttp 11000 13992 "GET / HTTP/1.1" 200 10107
+INFO 2023-09-07 14:24:23,098 basehttp 11000 13992 "GET /__debug__/render_panel/?store_id=a9aa72bc44744de4aeda8484d2f1cf3e&panel_id=HistoryPanel HTTP/1.1" 200 2505
+INFO 2023-09-07 14:24:27,214 basehttp 11000 13992 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+INFO 2023-09-07 14:24:32,054 basehttp 11000 13992 "GET /__debug__/history_sidebar/?store_id=a9aa72bc44744de4aeda8484d2f1cf3e&exclude_history=True HTTP/1.1" 200 10772
+INFO 2023-09-07 14:24:40,868 basehttp 11000 13992 "GET /__debug__/render_panel/?store_id=a9aa72bc44744de4aeda8484d2f1cf3e&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2023-09-07 14:25:07,990 basehttp 11000 13992 "GET /__debug__/render_panel/?store_id=a9aa72bc44744de4aeda8484d2f1cf3e&panel_id=SettingsPanel HTTP/1.1" 200 28035
+INFO 2023-09-07 14:25:28,267 basehttp 11000 13992 "GET /__debug__/render_panel/?store_id=a9aa72bc44744de4aeda8484d2f1cf3e&panel_id=HeadersPanel HTTP/1.1" 200 5353
+INFO 2023-09-07 14:25:54,887 basehttp 11000 13992 "GET /__debug__/render_panel/?store_id=a9aa72bc44744de4aeda8484d2f1cf3e&panel_id=RequestPanel HTTP/1.1" 200 1446
+INFO 2023-09-07 14:26:09,400 basehttp 11000 13992 "GET /__debug__/render_panel/?store_id=a9aa72bc44744de4aeda8484d2f1cf3e&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO 2023-09-07 14:26:24,064 basehttp 11000 13992 "GET /__debug__/render_panel/?store_id=a9aa72bc44744de4aeda8484d2f1cf3e&panel_id=StaticFilesPanel HTTP/1.1" 200 41083
+INFO 2023-09-07 14:26:51,105 basehttp 11000 13992 "GET /__debug__/render_panel/?store_id=a9aa72bc44744de4aeda8484d2f1cf3e&panel_id=TemplatesPanel HTTP/1.1" 200 6468
+INFO 2023-09-07 14:27:09,983 basehttp 11000 13992 "GET /__debug__/render_panel/?store_id=a9aa72bc44744de4aeda8484d2f1cf3e&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2023-09-07 14:27:26,534 basehttp 11000 13992 "GET /__debug__/render_panel/?store_id=a9aa72bc44744de4aeda8484d2f1cf3e&panel_id=SignalsPanel HTTP/1.1" 200 2265
+INFO 2023-09-07 14:28:25,515 basehttp 11000 13992 "GET / HTTP/1.1" 200 10550
+INFO 2023-09-07 14:28:25,883 basehttp 11000 13992 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-07 14:28:25,896 basehttp 11000 8564 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-07 14:28:26,144 basehttp 11000 13992 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-09-07 14:28:26,383 basehttp 11000 8564 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-07 14:28:28,711 basehttp 11000 8564 "GET /__debug__/render_panel/?store_id=7f7e2cb90d5e492cb014e46c671064d5&panel_id=ProfilingPanel HTTP/1.1" 200 53887
+INFO 2023-09-07 14:52:25,516 autoreload 4780 15148 Watching for file changes with StatReloader
+INFO 2023-09-07 14:52:30,145 basehttp 4780 4236 "GET / HTTP/1.1" 200 10550
+INFO 2023-09-07 14:52:31,506 basehttp 4780 4236 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-07 14:52:31,510 basehttp 4780 9560 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-07 14:52:31,566 basehttp 4780 2660 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-07 14:52:31,696 basehttp 4780 2660 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-09-07 14:52:40,748 basehttp 4780 2660 "GET /app6/db HTTP/1.1" 200 10828
+INFO 2023-09-07 14:52:41,035 basehttp 4780 9560 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2023-09-07 14:52:52,048 basehttp 4780 9560 "GET /app6/db/ HTTP/1.1" 200 10647
+INFO 2023-09-07 14:53:07,043 basehttp 4780 9560 "GET /app6/view/ HTTP/1.1" 200 10631
+INFO 2023-09-07 14:53:15,752 basehttp 4780 9560 "GET /app6/template/ HTTP/1.1" 200 10615
+INFO 2023-09-07 14:53:22,828 basehttp 4780 9560 "GET /__debug__/render_panel/?store_id=ae3d9d505d294fc5bc8e072c291e113e&panel_id=HistoryPanel HTTP/1.1" 200 9080
+INFO 2023-09-07 14:53:22,933 basehttp 4780 9560 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2023-09-07 14:53:27,685 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=e02b9a456dda4d179498ab2783b70ff5&exclude_history=True HTTP/1.1" 200 11366
+INFO 2023-09-07 14:53:29,217 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=d7785074c66f424184237e63e789264b&exclude_history=True HTTP/1.1" 200 11365
+INFO 2023-09-07 14:53:31,987 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=e02b9a456dda4d179498ab2783b70ff5&exclude_history=True HTTP/1.1" 200 11366
+INFO 2023-09-07 14:53:32,596 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=ae3d9d505d294fc5bc8e072c291e113e&exclude_history=True HTTP/1.1" 200 11370
+INFO 2023-09-07 14:53:33,964 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=e02b9a456dda4d179498ab2783b70ff5&exclude_history=True HTTP/1.1" 200 11366
+INFO 2023-09-07 14:53:34,883 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=d7785074c66f424184237e63e789264b&exclude_history=True HTTP/1.1" 200 11365
+INFO 2023-09-07 14:53:36,616 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=e02b9a456dda4d179498ab2783b70ff5&exclude_history=True HTTP/1.1" 200 11366
+INFO 2023-09-07 14:53:40,553 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=ae3d9d505d294fc5bc8e072c291e113e&exclude_history=True HTTP/1.1" 200 11370
+INFO 2023-09-07 14:53:42,424 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=e02b9a456dda4d179498ab2783b70ff5&exclude_history=True HTTP/1.1" 200 11366
+INFO 2023-09-07 14:53:47,723 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=d7785074c66f424184237e63e789264b&exclude_history=True HTTP/1.1" 200 11365
+INFO 2023-09-07 14:53:53,477 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=e02b9a456dda4d179498ab2783b70ff5&exclude_history=True HTTP/1.1" 200 11366
+INFO 2023-09-07 14:53:55,245 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=ae3d9d505d294fc5bc8e072c291e113e&exclude_history=True HTTP/1.1" 200 11370
+INFO 2023-09-07 14:57:58,218 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=ae3d9d505d294fc5bc8e072c291e113e&exclude_history=True HTTP/1.1" 200 11370
+INFO 2023-09-07 14:57:59,977 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=e02b9a456dda4d179498ab2783b70ff5&exclude_history=True HTTP/1.1" 200 11366
+INFO 2023-09-07 14:58:01,889 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=d7785074c66f424184237e63e789264b&exclude_history=True HTTP/1.1" 200 11365
+INFO 2023-09-07 14:58:03,149 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=e750b5557680439abae8a2cf6b3e94c5&exclude_history=True HTTP/1.1" 200 11334
+INFO 2023-09-07 14:58:04,976 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=d7785074c66f424184237e63e789264b&exclude_history=True HTTP/1.1" 200 11365
+INFO 2023-09-07 14:58:05,655 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=e02b9a456dda4d179498ab2783b70ff5&exclude_history=True HTTP/1.1" 200 11366
+INFO 2023-09-07 14:58:06,344 basehttp 4780 9560 "GET /__debug__/history_sidebar/?store_id=ae3d9d505d294fc5bc8e072c291e113e&exclude_history=True HTTP/1.1" 200 11370
+INFO 2023-09-07 14:58:12,630 basehttp 4780 9560 "GET /app6/db/ HTTP/1.1" 200 10646
+INFO 2023-09-07 14:58:12,929 basehttp 4780 9560 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-07 14:58:12,930 basehttp 4780 9136 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-07 14:58:13,103 basehttp 4780 1588 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-07 14:58:13,235 basehttp 4780 1588 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-09-07 14:58:23,062 basehttp 4780 1588 "GET /app6/view/ HTTP/1.1" 200 10632
+INFO 2023-09-07 14:58:39,616 basehttp 4780 1588 "GET /app6/template/ HTTP/1.1" 200 10615
